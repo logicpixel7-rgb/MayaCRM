@@ -5,10 +5,10 @@ namespace Maya\Admin\Http\Controllers\Settings;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Event;
-use Prettus\Repository\Criteria\RequestCriteria;
 use Maya\Admin\Http\Controllers\Controller;
 use Maya\Admin\Http\Requests\AttributeForm;
 use Maya\Warehouse\Repositories\LocationRepository;
+use Prettus\Repository\Criteria\RequestCriteria;
 
 class LocationController extends Controller
 {

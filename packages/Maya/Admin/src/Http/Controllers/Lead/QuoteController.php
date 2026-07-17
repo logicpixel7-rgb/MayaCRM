@@ -7,11 +7,11 @@ use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Mail;
-use Mpdf\Mpdf;
 use Maya\Admin\Http\Controllers\Controller;
 use Maya\Admin\Notifications\Common;
 use Maya\Lead\Repositories\LeadRepository;
 use Maya\Quote\Repositories\QuoteRepository;
+use Mpdf\Mpdf;
 
 class QuoteController extends Controller
 {

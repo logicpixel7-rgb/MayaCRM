@@ -3,7 +3,6 @@
 use App\Providers\AppServiceProvider;
 use Barryvdh\DomPDF\ServiceProvider;
 use Konekt\Concord\ConcordServiceProvider;
-use Prettus\Repository\Providers\RepositoryServiceProvider;
 use Maya\Activity\Providers\ActivityServiceProvider;
 use Maya\Admin\Providers\AdminServiceProvider;
 use Maya\Attribute\Providers\AttributeServiceProvider;
@@ -23,6 +22,7 @@ use Maya\Tag\Providers\TagServiceProvider;
 use Maya\User\Providers\UserServiceProvider;
 use Maya\Warehouse\Providers\WarehouseServiceProvider;
 use Maya\WebForm\Providers\WebFormServiceProvider;
+use Prettus\Repository\Providers\RepositoryServiceProvider;
 
 return [
     /*

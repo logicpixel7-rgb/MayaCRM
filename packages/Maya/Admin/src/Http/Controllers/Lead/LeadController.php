@@ -9,7 +9,6 @@ use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\View\View;
-use Prettus\Repository\Criteria\RequestCriteria;
 use Maya\Admin\DataGrids\Lead\LeadDataGrid;
 use Maya\Admin\Http\Controllers\Controller;
 use Maya\Admin\Http\Requests\LeadForm;
@@ -31,6 +30,7 @@ use Maya\Quote\Repositories\QuoteItemRepository;
 use Maya\Quote\Repositories\QuoteRepository;
 use Maya\Tag\Repositories\TagRepository;
 use Maya\User\Repositories\UserRepository;
+use Prettus\Repository\Criteria\RequestCriteria;
 
 class LeadController extends Controller
 {

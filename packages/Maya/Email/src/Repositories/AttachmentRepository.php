@@ -4,10 +4,10 @@ namespace Maya\Email\Repositories;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Storage;
-use Webklex\PHPIMAP\Attachment as ImapAttachment;
 use Maya\Core\Eloquent\Repository;
 use Maya\Email\Contracts\Attachment;
 use Maya\Email\Contracts\Email;
+use Webklex\PHPIMAP\Attachment as ImapAttachment;
 
 class AttachmentRepository extends Repository
 {

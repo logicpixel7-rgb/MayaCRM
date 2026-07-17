@@ -6,12 +6,12 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Event;
 use Illuminate\View\View;
-use Prettus\Repository\Criteria\RequestCriteria;
 use Maya\Admin\DataGrids\Settings\TagDataGrid;
 use Maya\Admin\Http\Controllers\Controller;
 use Maya\Admin\Http\Requests\MassDestroyRequest;
 use Maya\Admin\Http\Resources\TagResource;
 use Maya\Tag\Repositories\TagRepository;
+use Prettus\Repository\Criteria\RequestCriteria;
 
 class TagController extends Controller
 {

@@ -8,13 +8,13 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\Event;
 use Illuminate\View\View;
-use Prettus\Repository\Criteria\RequestCriteria;
 use Maya\Admin\DataGrids\Contact\PersonDataGrid;
 use Maya\Admin\Http\Controllers\Controller;
 use Maya\Admin\Http\Requests\AttributeForm;
 use Maya\Admin\Http\Requests\MassDestroyRequest;
 use Maya\Admin\Http\Resources\PersonResource;
 use Maya\Contact\Repositories\PersonRepository;
+use Prettus\Repository\Criteria\RequestCriteria;
 
 class PersonController extends Controller
 {

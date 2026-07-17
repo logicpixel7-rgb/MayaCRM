@@ -3,13 +3,13 @@
 namespace Maya\Email\InboundEmailProcessor;
 
 use Carbon\Carbon;
-use Webklex\IMAP\Facades\Client;
-use Webklex\IMAP\Support\FolderCollection;
-use Webklex\PHPIMAP\Message;
 use Maya\Email\Enums\SupportedFolderEnum;
 use Maya\Email\InboundEmailProcessor\Contracts\InboundEmailProcessor;
 use Maya\Email\Repositories\AttachmentRepository;
 use Maya\Email\Repositories\EmailRepository;
+use Webklex\IMAP\Facades\Client;
+use Webklex\IMAP\Support\FolderCollection;
+use Webklex\PHPIMAP\Message;
 
 class WebklexImapEmailProcessor implements InboundEmailProcessor
 {

@@ -6,12 +6,12 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Event;
 use Illuminate\View\View;
-use Prettus\Repository\Criteria\RequestCriteria;
 use Maya\Admin\DataGrids\Product\ProductDataGrid;
 use Maya\Admin\DataGrids\Settings\WarehouseDataGrid;
 use Maya\Admin\Http\Controllers\Controller;
 use Maya\Admin\Http\Requests\AttributeForm;
 use Maya\Warehouse\Repositories\WarehouseRepository;
+use Prettus\Repository\Criteria\RequestCriteria;
 
 class WarehouseController extends Controller
 {

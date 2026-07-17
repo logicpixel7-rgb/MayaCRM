@@ -7,8 +7,6 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\View\View;
-use Symfony\Component\HttpFoundation\RedirectResponse;
-use Symfony\Component\HttpFoundation\StreamedResponse;
 use Maya\Activity\Repositories\ActivityRepository;
 use Maya\Activity\Repositories\FileRepository;
 use Maya\Admin\DataGrids\Activity\ActivityDataGrid;
@@ -17,6 +15,8 @@ use Maya\Admin\Http\Requests\MassDestroyRequest;
 use Maya\Admin\Http\Requests\MassUpdateRequest;
 use Maya\Admin\Http\Resources\ActivityResource;
 use Maya\Attribute\Repositories\AttributeRepository;
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\HttpFoundation\StreamedResponse;
 
 class ActivityController extends Controller
 {

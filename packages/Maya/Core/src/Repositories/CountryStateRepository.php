@@ -2,8 +2,8 @@
 
 namespace Maya\Core\Repositories;
 
-use Prettus\Repository\Traits\CacheableRepository;
 use Maya\Core\Eloquent\Repository;
+use Prettus\Repository\Traits\CacheableRepository;
 
 class CountryStateRepository extends Repository
 {

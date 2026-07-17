@@ -8,8 +8,6 @@ use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Event;
 use Illuminate\View\View;
-use Prettus\Repository\Criteria\RequestCriteria;
-use Symfony\Component\HttpFoundation\StreamedResponse;
 use Maya\Admin\DataGrids\Quote\QuoteDataGrid;
 use Maya\Admin\Http\Controllers\Controller;
 use Maya\Admin\Http\Requests\AttributeForm;
@@ -19,6 +17,8 @@ use Maya\Attribute\Repositories\AttributeRepository;
 use Maya\Core\Traits\PDFHandler;
 use Maya\Lead\Repositories\LeadRepository;
 use Maya\Quote\Repositories\QuoteRepository;
+use Prettus\Repository\Criteria\RequestCriteria;
+use Symfony\Component\HttpFoundation\StreamedResponse;
 
 class QuoteController extends Controller
 {

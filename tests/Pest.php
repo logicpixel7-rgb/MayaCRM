@@ -1,8 +1,8 @@
 <?php
 
 use Laravel\Sanctum\Sanctum;
-use Tests\TestCase;
 use Maya\User\Models\User;
+use Tests\TestCase;
 
 /*
 |--------------------------------------------------------------------------

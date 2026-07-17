@@ -8,7 +8,6 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\View\View;
-use Prettus\Repository\Criteria\RequestCriteria;
 use Maya\Admin\DataGrids\Settings\UserDataGrid;
 use Maya\Admin\Http\Controllers\Controller;
 use Maya\Admin\Http\Requests\MassDestroyRequest;
@@ -18,6 +17,7 @@ use Maya\Admin\Notifications\User\Create as UserCreatedNotification;
 use Maya\User\Repositories\GroupRepository;
 use Maya\User\Repositories\RoleRepository;
 use Maya\User\Repositories\UserRepository;
+use Prettus\Repository\Criteria\RequestCriteria;
 
 class UserController extends Controller
 {

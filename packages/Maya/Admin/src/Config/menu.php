@@ -288,9 +288,9 @@ return [
         'icon-class' => 'icon-configuration',
     ],
 
-    /**
-     * Help.
-     */
+/**
+ * Help.
+ */
     // [
     //     'key' => 'help',
     //     'name' => 'admin::app.layouts.help',

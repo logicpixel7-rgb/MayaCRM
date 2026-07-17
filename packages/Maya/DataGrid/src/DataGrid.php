@@ -9,9 +9,9 @@ use Illuminate\Support\Facades\Crypt;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Str;
 use Maatwebsite\Excel\Facades\Excel;
-use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Maya\DataGrid\Enums\ColumnTypeEnum;
 use Maya\DataGrid\Exports\DataGridExport;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 abstract class DataGrid
 {

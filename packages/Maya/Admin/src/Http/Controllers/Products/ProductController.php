@@ -6,13 +6,13 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\Event;
 use Illuminate\View\View;
-use Prettus\Repository\Criteria\RequestCriteria;
 use Maya\Admin\DataGrids\Product\ProductDataGrid;
 use Maya\Admin\Http\Controllers\Controller;
 use Maya\Admin\Http\Requests\AttributeForm;
 use Maya\Admin\Http\Requests\MassDestroyRequest;
 use Maya\Admin\Http\Resources\ProductResource;
 use Maya\Product\Repositories\ProductRepository;
+use Prettus\Repository\Criteria\RequestCriteria;
 
 class ProductController extends Controller
 {
