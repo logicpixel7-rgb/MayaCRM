@@ -1,0 +1,27 @@
+{
+    "name": "maya/laravel-attribute",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jitendra Singh",
+            "email": "jitendra@Maya.com"
+        }
+    ],
+    "require": {
+        "maya/laravel-core": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maya\\Attribute\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maya\\Attribute\\Providers\\AttributeServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

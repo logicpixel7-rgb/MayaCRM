@@ -1,0 +1,26 @@
+{
+    "name": "maya/laravel-installer",
+    "license": "MIT",
+    "description": "Installer package",
+    "authors": [
+        {
+            "name": "maya",
+            "email": "support@maya.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Maya\\Installer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maya\\Installer\\Providers\\InstallerServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

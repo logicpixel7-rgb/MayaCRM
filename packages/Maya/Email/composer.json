@@ -1,0 +1,28 @@
+{
+    "name": "maya/laravel-email",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jitendra Singh",
+            "email": "jitendra@Maya.com"
+        }
+    ],
+    "require": {
+        "maya/laravel-contact": "^1.0",
+        "maya/laravel-core": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maya\\Email\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maya\\Email\\Providers\\EmailServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
